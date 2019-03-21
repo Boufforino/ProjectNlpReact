@@ -1,0 +1,28 @@
+#Unigraph
+SIZE 1047 763
+FONT Times New Roman:  16
+OFONT Times New Roman:B 16
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 12632256
+SCOLOR 255
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+8
+"<E>" 170 580 3 4 2 5 
+"" 994 597 0 
+"fer+fers" 444 603 1 7 
+"H+I+L+T+U+V+X" 721 603 1 1 
+"antenne en T+bandage en T+chaîne en S+circuit en L+clou en U+courbure en S+encolure en V+équerre en T+filtre en T+ligament en Y+neurone en T+tournevis en T+tube en U" 250 226 1 1 
+"antennes en T+bandages en T+chaînes en S+circuits en L+clous en U+courbures en S+člindres en V+encolures en V+équerres en T+filtres en T+ligaments en Y+neurones en T+tournevis en T+tubes en U" 603 223 1 1 
+"'cylindres en V' n'a pas de singulier" 52 38 0 
+"en" 557 605 1 3 

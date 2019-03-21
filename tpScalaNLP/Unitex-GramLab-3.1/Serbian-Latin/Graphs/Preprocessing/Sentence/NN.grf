@@ -1,0 +1,43 @@
+#Unigraph
+SIZE 763 1047
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 12632256
+SCOLOR 255
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+23
+"<E>" 38 461 11 3 5 7 9 11 13 15 17 19 20 2 
+"" 724 494 0 
+"antigène T+crochet X+jour J+matériel Z+officier Z+papier Q+système D+test T" 259 115 0 
+"bomba+bombe+bombi+bombu+bombo+bombom+bombama" 281 292 1 4 
+"A+H+W" 486 278 1 1 
+"hromozom+hromozoma+hromozomu+hromozome+hromozomom+hromozomima+hromozomi" 157 373 1 6 
+"X+Y+Z" 486 373 1 1 
+"hepatitis+hepatitisa+hepatitisu+hepatitisom+hepatitisi+hepatitisima+hepatitise" 268 467 1 8 
+"A+B+C" 486 467 1 1 
+"lymphočte+lymphočtes" 174 560 1 10 
+"B+T" 486 542 0 
+"langage+langages" 268 619 1 12 
+"B+C+Z" 486 637 0 
+"livret+livrets" 268 693 1 14 
+"A+B" 486 712 0 
+"zrak+zraka+zraku+zrakom+zraci+zracima+zrake" 185 770 1 16 
+"R+X" 486 769 1 1 
+"vitamin+vitamina+vitaminu+vitaminom+vitamini+vitamine+vitaminima" 268 882 1 18 
+"A+B+C+D+E+K" 486 882 1 1 
+"antigènes T+crochets X+jours J+matériels Z+officiers Z+papiers Q+systèmes D+tests T" 403 96 0 
+"tableau+tableaux" 268 994 1 21 
+"A+B+C" 486 994 0 
+"pharmacie" 531 989 0 

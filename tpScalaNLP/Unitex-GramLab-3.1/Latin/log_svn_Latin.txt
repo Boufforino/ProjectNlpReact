@@ -1,0 +1,25 @@
+------------------------------------------------------------------------
+r4246 | gupta | 2016-01-13 14:27:14 +0100 (Wed, 13 Jan 2016) | 1 line
+
+Rename the folder Cassys to CasSys
+------------------------------------------------------------------------
+r3407 | paumier | 2013-04-16 14:10:45 +0200 (Tue, 16 Apr 2013) | 1 line
+
+Removing user_dic.def for Latin because the system directory for a language should not contain user data
+------------------------------------------------------------------------
+r3343 | friburger | 2012-09-27 13:26:00 +0200 (Thu, 27 Sep 2012) | 1 line
+
+Added a share folder each Cassys language folder
+------------------------------------------------------------------------
+r3175 | paumier | 2012-07-24 12:53:08 +0200 (Tue, 24 Jul 2012) | 1 line
+
+Adding Gramlab's TEI graphs to every language directory
+------------------------------------------------------------------------
+r3033 | paumier | 2012-05-31 14:17:26 +0200 (Thu, 31 May 2012) | 1 line
+
+Adding a description file for the Latin dictionary
+------------------------------------------------------------------------
+r3022 | paumier | 2012-05-29 10:00:44 +0200 (Tue, 29 May 2012) | 1 line
+
+Adding Latin
+------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+#Unigraph
+SIZE 844 1100
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 12632256
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+10
+"<E>" 108 376 3 2 5 6 
+"" 596 372 0 
+"cf..+etc.+god.+odn.+tzv." 244 184 1 1 
+"Proste skracenice bey broja (Abbreviation.dic)" 336 156 0 
+"Slozene skracenice +" 364 288 0 
+"npr.+tj.+v.d.+a.d." 256 292 1 1 
+"br.+čl.+gl.+odelj.+st.+pp.+str.+tač.+App.+no.+No." 256 476 2 7 8 
+"<NB>" 380 432 2 9 1 
+":RomanNumerals" 391 509 1 9 
+"<E>" 530 469 1 7 

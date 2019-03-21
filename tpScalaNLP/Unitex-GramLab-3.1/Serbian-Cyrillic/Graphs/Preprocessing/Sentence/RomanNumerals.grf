@@ -1,0 +1,24 @@
+#Unigraph
+SIZE 1345 933
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 8454143
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME n
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+4
+"<E>" 32 96 1 2 
+"" 328 96 0 
+":RN" 124 96 1 1 
+"The embeded RN graph identifies Roman Numerals" 32 216 0 

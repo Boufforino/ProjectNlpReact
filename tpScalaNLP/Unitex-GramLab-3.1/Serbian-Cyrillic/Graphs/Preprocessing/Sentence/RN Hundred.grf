@@ -1,0 +1,31 @@
+#Unigraph
+SIZE 533 722
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 8421504
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+11
+"<E>" 85 329 9 2 3 4 5 6 7 8 9 10 
+"" 418 286 0 
+"Ц" 247 67 1 1 
+"Ц Ц" 240 146 1 1 
+"Ц Ц Ц" 233 227 1 1 
+"Ц Д" 240 308 1 1 
+"Д" 247 379 1 1 
+"Д Ц" 240 440 1 1 
+"Д Ц Ц" 232 491 1 1 
+"Д Ц Ц Ц" 225 560 1 1 
+"Ц М" 239 625 1 1 

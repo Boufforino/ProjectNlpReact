@@ -1,0 +1,29 @@
+#Unigraph
+SIZE 1188 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+9
+"<E>" 70 200 7 2 3 4 5 6 7 8 
+"" 635 205 0 
+"jel'/{je,jesam.V+Imperf+It+Iref+Aux:Pzsi} {li,.PAR}" 208 61 1 1 
+"dal'/{da,.CONJ} {li,.PAR}" 209 121 1 1 
+"rek'o/{rekao,reći.V+Perf+Tr+Iref:Gsm}" 206 180 1 1 
+"jes'/{jeste,.INT}" 209 234 1 1 
+"oće+'oće/{hoće,hteti.V+Imperf+It+Iref+Ek+Aux:Pzsr:Pzpr}" 91 372 1 1 
+"oću+'oću/{hoću,hteti.V+Imperf+It+Iref+Ek+Aux:Pxsr}" 141 321 1 1 
+"oćeš+'oćeš/{hoću,hteti.V+Imperf+It+Iref+Ek+Aux:Pysr}" 205 294 1 1 

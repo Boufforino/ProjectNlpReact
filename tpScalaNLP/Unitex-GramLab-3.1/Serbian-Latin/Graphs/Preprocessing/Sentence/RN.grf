@@ -1,0 +1,31 @@
+#Unigraph
+SIZE 1047 763
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 8454143
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME n
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+11
+"<E>" 20 28 4 2 3 5 7 
+"" 532 156 0 
+":RN Thousand" 48 156 2 3 8 
+":RN Hundred" 148 104 1 4 
+"<E>" 252 156 2 5 9 
+":RN Ten" 284 80 1 6 
+"<E>" 364 124 2 7 10 
+":RN Unit" 428 60 1 1 
+"<E>" 172 156 1 4 
+"<E>" 320 156 2 6 10 
+"<E>" 444 156 1 1 

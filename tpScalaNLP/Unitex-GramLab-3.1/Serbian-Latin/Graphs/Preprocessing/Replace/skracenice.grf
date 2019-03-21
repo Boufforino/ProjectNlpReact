@@ -1,0 +1,44 @@
+#Unigraph
+SIZE 1318 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+24
+"<E>" 98 204 22 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+"" 959 223 0 
+"i sl./i slično" 521 94 1 1 
+"npr./na primer" 521 143 1 1 
+"tj./to jest" 521 202 1 1 
+"g-đa+g-dja/gospođa" 186 315 1 1 
+"g-đica+g-djica/gospođica" 182 407 1 1 
+"itd./i tako dalje" 521 48 1 1 
+"g-đe+g-dje/gospođe" 293 315 1 1 
+"g-đi+g-dji/gospođi" 407 315 1 1 
+"g-đu+g-dju/gospođu" 623 315 1 1 
+"g-đo+g-djo/gospođo" 521 315 1 1 
+"g-đom+g-djom/gospođom" 727 315 1 1 
+"g-đama+g-djama/gospođama" 843 315 1 1 
+"g-đice+g-djice/gospođice" 294 407 1 1 
+"g-đici+g-djici/gospođici" 408 407 1 1 
+"g-đicu+g-djicu/gospođicu" 523 407 1 1 
+"g-đicom+g-djicom/gospođicom" 667 407 1 1 
+"g-đicama+g-djicama/gospođicama" 826 407 1 1 
+"g-din/gospodin" 178 485 1 1 
+"g-dina/gospodina" 290 485 1 1 
+"g-dinu/gospodinu" 404 485 1 1 
+"g-dine/gospodine" 518 485 1 1 
+"g-dinom/gospodinom" 663 485 1 1 

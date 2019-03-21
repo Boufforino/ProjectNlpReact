@@ -1,0 +1,433 @@
+------------------------------------------------------------------------
+r4275 | mdamis | 2016-02-19 12:28:48 +0100 (Fri, 19 Feb 2016) | 1 line
+
+Fix textfield height in LocateFrame
+------------------------------------------------------------------------
+r4272 | mdamis | 2016-02-17 23:41:32 +0100 (Wed, 17 Feb 2016) | 1 line
+
+Fix background color error in TsftGraphBox
+------------------------------------------------------------------------
+r4260 | martinec | 2016-01-21 15:10:08 +0100 (Thu, 21 Jan 2016) | 1 line
+
+fix r4247, Cassys is now CasSys
+------------------------------------------------------------------------
+r4259 | martinec | 2016-01-19 11:07:42 +0100 (Tue, 19 Jan 2016) | 1 line
+
+minor: version regex update to ignore the dash preceding a suffix
+------------------------------------------------------------------------
+r4258 | martinec | 2016-01-15 22:14:34 +0100 (Fri, 15 Jan 2016) | 1 line
+
+fix r4252 bug reading Manifest.mf
+------------------------------------------------------------------------
+r4257 | martinec | 2016-01-15 19:03:40 +0100 (Fri, 15 Jan 2016) | 1 line
+
+minor: catch exceptions when calling getUnitexToolLoggerSemVer
+------------------------------------------------------------------------
+r4256 | martinec | 2016-01-15 18:50:01 +0100 (Fri, 15 Jan 2016) | 1 line
+
+minor: update getUnitexToolLoggerSemVer()
+------------------------------------------------------------------------
+r4255 | martinec | 2016-01-15 18:13:43 +0100 (Fri, 15 Jan 2016) | 1 line
+
+minor: set java target version to 1.6
+------------------------------------------------------------------------
+r4254 | martinec | 2016-01-15 17:58:40 +0100 (Fri, 15 Jan 2016) | 1 line
+
+hotfix: temporal workaround bug reading Manifest.mf
+------------------------------------------------------------------------
+r4249 | martinec | 2016-01-13 16:02:56 +0100 (Wed, 13 Jan 2016) | 1 line
+
+enhance: version information is read from Manifest.mf
+------------------------------------------------------------------------
+r4248 | martinec | 2016-01-13 15:50:29 +0100 (Wed, 13 Jan 2016) | 1 line
+
+add function to get the UnitexToolLogger SemVer
+------------------------------------------------------------------------
+r4245 | martinec | 2016-01-13 14:12:47 +0100 (Wed, 13 Jan 2016) | 1 line
+
+add new VersionInfoCommand class
+------------------------------------------------------------------------
+r4244 | martinec | 2016-01-12 23:20:39 +0100 (Tue, 12 Jan 2016) | 1 line
+
+minor: avoid io hangs when configuring UnitexToolLogger
+------------------------------------------------------------------------
+r4242 | martinec | 2016-01-12 20:44:08 +0100 (Tue, 12 Jan 2016) | 1 line
+
+minor: fix 4241 to support Java 1.6+
+------------------------------------------------------------------------
+r4241 | martinec | 2016-01-12 19:19:21 +0100 (Tue, 12 Jan 2016) | 1 line
+
+enhance: improve UnitexToolLogger detection and configuration
+------------------------------------------------------------------------
+r4239 | gvollant | 2016-01-02 10:19:22 +0100 (Sat, 02 Jan 2016) | 1 line
+
+like revision 1220 and 2059, 2691, 3390, 3539 and 3753, Updating copyright to 2016
+------------------------------------------------------------------------
+r4216 | martinec | 2015-12-04 01:40:47 +0100 (Fri, 04 Dec 2015) | 1 line
+
+minor refactor: update semver varname
+------------------------------------------------------------------------
+r4214 | martinec | 2015-12-03 21:43:46 +0100 (Thu, 03 Dec 2015) | 1 line
+
+rename LICENSE.md to LICENSE
+------------------------------------------------------------------------
+r4210 | martinec | 2015-12-03 07:07:03 +0100 (Thu, 03 Dec 2015) | 1 line
+
+minor fix: add missing quotes
+------------------------------------------------------------------------
+r4209 | martinec | 2015-12-03 06:57:09 +0100 (Thu, 03 Dec 2015) | 1 line
+
+minor fix: add missing concatenation operator
+------------------------------------------------------------------------
+r4208 | martinec | 2015-12-03 06:24:58 +0100 (Thu, 03 Dec 2015) | 1 line
+
+minor refactor: update string version format
+------------------------------------------------------------------------
+r4207 | martinec | 2015-12-03 06:01:34 +0100 (Thu, 03 Dec 2015) | 1 line
+
+hotfix: r4206 version information
+------------------------------------------------------------------------
+r4206 | martinec | 2015-12-03 05:04:07 +0100 (Thu, 03 Dec 2015) | 1 line
+
+enhance: version information does not depend more on external files
+------------------------------------------------------------------------
+r4205 | martinec | 2015-12-03 04:36:40 +0100 (Thu, 03 Dec 2015) | 1 line
+
+add a file template including version information
+------------------------------------------------------------------------
+r4203 | martinec | 2015-12-03 03:48:24 +0100 (Thu, 03 Dec 2015) | 1 line
+
+enhance: update dialog loads disclaimers/Unitex-GramLab.txt
+------------------------------------------------------------------------
+r4201 | martinec | 2015-12-03 02:56:20 +0100 (Thu, 03 Dec 2015) | 1 line
+
+refactor: find svnkitclient.jar in App/lib directory
+------------------------------------------------------------------------
+r4199 | martinec | 2015-12-03 02:35:46 +0100 (Thu, 03 Dec 2015) | 1 line
+
+update build.xml to use App/lib hierarchy
+------------------------------------------------------------------------
+r4197 | martinec | 2015-12-02 23:16:11 +0100 (Wed, 02 Dec 2015) | 1 line
+
+minor refactor: update Class-Path
+------------------------------------------------------------------------
+r4195 | martinec | 2015-12-02 22:42:10 +0100 (Wed, 02 Dec 2015) | 1 line
+
+enhance: add templatized Manifest.md for XAlign
+------------------------------------------------------------------------
+r4194 | martinec | 2015-12-02 22:03:07 +0100 (Wed, 02 Dec 2015) | 1 line
+
+enhance: add templatized Manifest.md including version information
+------------------------------------------------------------------------
+r4186 | martinec | 2015-11-29 06:58:11 +0100 (Sun, 29 Nov 2015) | 1 line
+
+enhance: add a main license for the GramLab IDE
+------------------------------------------------------------------------
+r4185 | martinec | 2015-11-29 06:28:56 +0100 (Sun, 29 Nov 2015) | 1 line
+
+update Xerces-J 2.9.1 to 2.11.0
+------------------------------------------------------------------------
+r4183 | martinec | 2015-11-29 05:25:19 +0100 (Sun, 29 Nov 2015) | 1 line
+
+minor: update copyright year
+------------------------------------------------------------------------
+r4165 | martinec | 2015-11-22 15:10:04 +0100 (Sun, 22 Nov 2015) | 1 line
+
+minor refactor replace Gramlab by GramLab
+------------------------------------------------------------------------
+r4155 | mdamis | 2015-11-20 00:03:00 +0100 (Fri, 20 Nov 2015) | 1 line
+
+Update bug report message
+------------------------------------------------------------------------
+r4149 | gupta | 2015-11-12 14:02:35 +0100 (Thu, 12 Nov 2015) | 1 line
+
+Default encoding is set to UTF-8 in the preferences.
+------------------------------------------------------------------------
+r4123 | martinec | 2015-11-02 13:39:18 +0100 (Mon, 02 Nov 2015) | 1 line
+
+refactor search stop policy panel
+------------------------------------------------------------------------
+r4079 | mdamis | 2015-10-03 16:31:52 +0200 (Sat, 03 Oct 2015) | 1 line
+
+Fix bug related to newProcessInfoFrame in GramLab
+------------------------------------------------------------------------
+r4071 | martinec | 2015-10-01 18:24:58 +0200 (Thu, 01 Oct 2015) | 7 lines
+
+enhance: highlight attribute=value dictionary entries
+
+highlight attribute=value dictionary entries, e.g.
+
+foo,.X+attribute=value
+
+
+------------------------------------------------------------------------
+r4070 | martinec | 2015-10-01 17:42:57 +0200 (Thu, 01 Oct 2015) | 8 lines
+
+fix: Escape HTML entities for dictionaries display
+
+This commit fix dictionaries entries display when is
+needed to escape HTML entities, e.g.:
+
+foo,.X+bar=<baz>
+
+
+------------------------------------------------------------------------
+r4066 | martinec | 2015-09-29 11:08:52 +0200 (Tue, 29 Sep 2015) | 1 line
+
+minor: add missing hotkey in help menu
+------------------------------------------------------------------------
+r4062 | mdamis | 2015-09-27 17:30:32 +0200 (Sun, 27 Sep 2015) | 1 line
+
+Replace AboutUnitexFrame & AboutGramlabDialog by a common class
+------------------------------------------------------------------------
+r4054 | mdamis | 2015-09-24 18:01:26 +0200 (Thu, 24 Sep 2015) | 1 line
+
+Fix errors in LocateCommand
+------------------------------------------------------------------------
+r4045 | mdamis | 2015-09-22 23:42:40 +0200 (Tue, 22 Sep 2015) | 1 line
+
+Add help menu
+------------------------------------------------------------------------
+r4043 | mdamis | 2015-09-22 22:57:39 +0200 (Tue, 22 Sep 2015) | 1 line
+
+Update LocateFrame to include new Locate parameters
+------------------------------------------------------------------------
+r4041 | mdamis | 2015-09-22 21:38:04 +0200 (Tue, 22 Sep 2015) | 1 line
+
+Separate Language and Presentation into 2 tabs like GramLab
+------------------------------------------------------------------------
+r4040 | mdamis | 2015-09-22 20:57:27 +0200 (Tue, 22 Sep 2015) | 1 line
+
+Add UnitexInternalFrameManager
+------------------------------------------------------------------------
+r4032 | mdamis | 2015-09-19 21:18:10 +0200 (Sat, 19 Sep 2015) | 1 line
+
+Update the implementation of InternalFrameManager using the Type Token Pattern
+------------------------------------------------------------------------
+r4031 | mdamis | 2015-09-19 17:53:38 +0200 (Sat, 19 Sep 2015) | 1 line
+
+Update the language selection dialog box to appear always on top
+------------------------------------------------------------------------
+r3965 | gupta | 2015-07-06 14:02:49 +0200 (Mon, 06 Jul 2015) | 1 line
+
+Create snt directory before launching Normalize
+------------------------------------------------------------------------
+r3964 | gupta | 2015-07-03 16:44:56 +0200 (Fri, 03 Jul 2015) | 1 line
+
+A generic graph cannot be applied in replace mode nor in fix until point mode.
+------------------------------------------------------------------------
+r3961 | gupta | 2015-07-02 13:32:28 +0200 (Thu, 02 Jul 2015) | 1 line
+
+Change UI to support r3950
+------------------------------------------------------------------------
+r3959 | gupta | 2015-07-01 16:14:50 +0200 (Wed, 01 Jul 2015) | 1 line
+
+Add $G instead of $@ in the UI for generic graphs.
+------------------------------------------------------------------------
+r3958 | gupta | 2015-07-01 14:59:37 +0200 (Wed, 01 Jul 2015) | 1 line
+
+Fix r3950 bug.
+------------------------------------------------------------------------
+r3957 | gupta | 2015-06-30 15:32:45 +0200 (Tue, 30 Jun 2015) | 1 line
+
+Normalize creates output offsets without preprocessing.
+------------------------------------------------------------------------
+r3955 | gupta | 2015-06-30 11:16:50 +0200 (Tue, 30 Jun 2015) | 1 line
+
+Display output along with '@' in generic graphs.
+------------------------------------------------------------------------
+r3954 | gupta | 2015-06-29 17:29:22 +0200 (Mon, 29 Jun 2015) | 1 line
+
+Added a new button to the Graph UI that indicates generic graph box.
+------------------------------------------------------------------------
+r3952 | gupta | 2015-06-29 12:10:10 +0200 (Mon, 29 Jun 2015) | 1 line
+
+fix r3949 errors
+------------------------------------------------------------------------
+r3950 | gupta | 2015-06-26 15:40:00 +0200 (Fri, 26 Jun 2015) | 1 line
+
+Display a column to mark a graph as generic.
+------------------------------------------------------------------------
+r3949 | gupta | 2015-06-26 14:12:02 +0200 (Fri, 26 Jun 2015) | 1 line
+
+Pass normalize.out.offsets to Cassys
+------------------------------------------------------------------------
+r3947 | gupta | 2015-06-25 15:07:54 +0200 (Thu, 25 Jun 2015) | 1 line
+
+fix style errors of r3946
+------------------------------------------------------------------------
+r3946 | gupta | 2015-06-25 14:21:55 +0200 (Thu, 25 Jun 2015) | 1 line
+
+By default, normalize will create offsets.
+------------------------------------------------------------------------
+r3823 | paumier | 2015-05-01 16:55:46 +0200 (Fri, 01 May 2015) | 1 line
+
+Added 'Match word boundaries' option
+------------------------------------------------------------------------
+r3821 | gupta | 2015-04-29 14:30:37 +0200 (Wed, 29 Apr 2015) | 1 line
+
+Fixed a bug which disabled display of Cascade list once Edit Cascade had been called from FSGraph
+------------------------------------------------------------------------
+r3723 | gvollant | 2014-12-11 11:00:31 +0100 (Thu, 11 Dec 2014) | 1 line
+
+restore cleanupIntermediateFiles in CassysCommand
+------------------------------------------------------------------------
+r3722 | friburger | 2014-12-10 09:49:32 +0100 (Wed, 10 Dec 2014) | 1 line
+
+modifying cassys : management of absolute path, suppressing export/import and others
+------------------------------------------------------------------------
+r3715 | gvollant | 2014-11-22 00:15:11 +0100 (Sat, 22 Nov 2014) | 1 line
+
+add cassys option option in java Command file
+------------------------------------------------------------------------
+r3623 | vasiljevic | 2014-03-31 00:32:13 +0200 (Mon, 31 Mar 2014) | 2 lines
+
+[#13] fix in the cropping rectangle calculation
+
+------------------------------------------------------------------------
+r3622 | vasiljevic | 2014-03-30 16:41:27 +0200 (Sun, 30 Mar 2014) | 1 line
+
+Fixes in build.xml
+------------------------------------------------------------------------
+r3621 | vasiljevic | 2014-03-30 09:39:35 +0200 (Sun, 30 Mar 2014) | 2 lines
+
+[#13] a compilation error and several warnings fix (also some copyright notices added)
+
+------------------------------------------------------------------------
+r3617 | vasiljevic | 2014-03-29 19:49:56 +0100 (Sat, 29 Mar 2014) | 2 lines
+
+[#13] New "Export as Image" feature for graphs
+
+------------------------------------------------------------------------
+r3588 | vasiljevic | 2014-03-06 23:46:34 +0100 (Thu, 06 Mar 2014) | 1 line
+
+Gramlab compatibility fix
+------------------------------------------------------------------------
+r3580 | vasiljevic | 2014-03-03 11:38:29 +0100 (Mon, 03 Mar 2014) | 1 line
+
+Java 6 (JRE System Library) compatibility fix
+------------------------------------------------------------------------
+r3574 | vasiljevic | 2014-03-02 13:25:33 +0100 (Sun, 02 Mar 2014) | 1 line
+
+Text & FSGraph menu: added "Clear Recent" option
+------------------------------------------------------------------------
+r3573 | vasiljevic | 2014-03-01 18:49:01 +0100 (Sat, 01 Mar 2014) | 4 lines
+
+Open recent, open windows list and saved last language selection
+- Graph & Text menus: Open Recent
+- Windows menu: list of open windows
+- Initial language selection: selection is saved as default
+------------------------------------------------------------------------
+r3553 | vasiljevic | 2014-02-18 19:43:29 +0100 (Tue, 18 Feb 2014) | 9 lines
+
+Graph editor: improvements related to box content editing
+
+When you are editing box content and you have made some changes:
+- if you click on the graph background, changes will be stored in the appropriate box(es) and all boxes will be deselected
+- if you click on a box, changes will be  stored in the appropriate box(es) and the clicked box will be selected without altering transitions; so, you can just click on the next box you want to edit (if you don't make any changes in selected box content, the Graph editor will behave as usual: it will draw/remove transitions)
+- if you do "Save" or "Save as", changes will be stored in the appropriate box(es) before saving
+- in the all previous cases if there is an error in the box content, the operation will be canceled and you go back to the edit field, to fix the error
+- if you want to cancel editing, just hit ESC
+
+------------------------------------------------------------------------
+r3552 | vasiljevic | 2014-02-18 19:37:13 +0100 (Tue, 18 Feb 2014) | 1 line
+
+FSGraph menu: disable (gray out) non-applicable menu items 
+------------------------------------------------------------------------
+r3542 | martinec | 2014-01-28 15:34:37 +0100 (Tue, 28 Jan 2014) | 1 line
+
+Under Linux, fix a problem when trying to access an invalid directory path pointed by unitex.cfg file
+------------------------------------------------------------------------
+r3540 | gvollant | 2014-01-01 22:54:09 +0100 (Wed, 01 Jan 2014) | 1 line
+
+like revision 1220 and 2059, 2691 and 3390, Updating copyright to 2014
+------------------------------------------------------------------------
+r3534 | vasiljevic | 2013-12-04 23:11:28 +0100 (Wed, 04 Dec 2013) | 1 line
+
+Graph open dialog: *.grf is default filter
+------------------------------------------------------------------------
+r3533 | vasiljevic | 2013-12-04 23:09:21 +0100 (Wed, 04 Dec 2013) | 1 line
+
+Graph editor: right click resets cursor to normal
+------------------------------------------------------------------------
+r3532 | vasiljevic | 2013-12-01 10:23:46 +0100 (Sun, 01 Dec 2013) | 1 line
+
+Default file name in the save as dialog of the graph editor
+------------------------------------------------------------------------
+r3531 | vasiljevic | 2013-12-01 10:20:39 +0100 (Sun, 01 Dec 2013) | 1 line
+
+Fixed close action in the quit confirmation window
+------------------------------------------------------------------------
+r3513 | vasiljevic | 2013-11-08 17:25:02 +0100 (Fri, 08 Nov 2013) | 2 lines
+
+fixes for "Changes related to the box selection in the graph editor"
+
+------------------------------------------------------------------------
+r3512 | vasiljevic | 2013-11-07 15:23:04 +0100 (Thu, 07 Nov 2013) | 5 lines
+
+Changes related to the box selection in the graph editor:
+(1) drag threshold - small mouse moves  (up to the some threshold) between the button press and release will not start dragging
+(2) rollover highlight for boxes
+(3) in GenericGraphicalZone.unSelectAllBoxes() both both selection list and selection flags of all boxes are cleared
+(4) unSelectAllBoxes() is called after undo operation
+------------------------------------------------------------------------
+r3477 | friburger | 2013-10-09 19:16:27 +0200 (Wed, 09 Oct 2013) | 1 line
+
+Change of the name of the last column named "Until Fix Point"
+------------------------------------------------------------------------
+r3476 | friburger | 2013-10-09 19:15:08 +0200 (Wed, 09 Oct 2013) | 1 line
+
+in TransducerListConfigurationFrame, change of size for the buttonPanel and columns of the table  
+------------------------------------------------------------------------
+r3461 | friburger | 2013-10-03 12:02:02 +0200 (Thu, 03 Oct 2013) | 1 line
+
+
+------------------------------------------------------------------------
+r3460 | friburger | 2013-10-03 11:51:27 +0200 (Thu, 03 Oct 2013) | 1 line
+
+change of the name of our operator star : it is now named run until fix point
+------------------------------------------------------------------------
+r3419 | friburger | 2013-05-30 15:11:57 +0200 (Thu, 30 May 2013) | 1 line
+
+Correcting a bug in export of cassys file : the parameter Enabled/Disabled was missing !
+------------------------------------------------------------------------
+r3406 | friburger | 2013-04-12 18:37:16 +0200 (Fri, 12 Apr 2013) | 1 line
+
+Correct a bug in the order of the JTable and the Object that stock the data to copy in the JTable
+------------------------------------------------------------------------
+r3398 | friburger | 2013-03-28 17:02:28 +0100 (Thu, 28 Mar 2013) | 1 line
+
+Changes in the order of the columns in the Jtable Transducer List Configuration
+------------------------------------------------------------------------
+r3390 | gvollant | 2013-01-29 09:20:12 +0100 (Tue, 29 Jan 2013) | 1 line
+
+like revision 1220 and 2059 and 2691, Updating copyright to 2013
+------------------------------------------------------------------------
+r3385 | nott | 2012-12-07 15:31:56 +0100 (Fri, 07 Dec 2012) | 1 line
+
+Rank now begin at 1
+------------------------------------------------------------------------
+r3383 | nott | 2012-12-07 09:56:14 +0100 (Fri, 07 Dec 2012) | 1 line
+
+add button bug fix
+------------------------------------------------------------------------
+r3380 | paumier | 2012-12-02 10:40:42 +0100 (Sun, 02 Dec 2012) | 1 line
+
+Removing unnecessary casts
+------------------------------------------------------------------------
+r3379 | nott | 2012-11-28 10:20:28 +0100 (Wed, 28 Nov 2012) | 1 line
+
+Added "enable all" and "disable all" button
+------------------------------------------------------------------------
+r3378 | nott | 2012-11-28 09:32:31 +0100 (Wed, 28 Nov 2012) | 1 line
+
+The graphical part to the graph iteration feature
+------------------------------------------------------------------------
+r3359 | nott | 2012-10-19 16:10:13 +0200 (Fri, 19 Oct 2012) | 1 line
+
+Added 'new Cascade' and 'Edit Cascade ...' entry in the graph menu
+------------------------------------------------------------------------
+r3358 | nott | 2012-10-19 14:56:54 +0200 (Fri, 19 Oct 2012) | 1 line
+
+Warning fix
+------------------------------------------------------------------------

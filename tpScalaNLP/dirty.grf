@@ -1,0 +1,42 @@
+#Unigraph
+SIZE 1703 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME n
+DDATE n
+DFILE n
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+22
+"<E>" 67 154 3 3 5 6 
+"" 1643 223 0 
+"<E>" 439 152 2 7 8 
+"<ADV>" 187 85 1 4 
+"<V>" 340 151 1 2 
+"<GN>" 236 139 1 4 
+"<je>+<tu>+<il>+<elle>+<on>+<nous>+<vous>+<ils>+<elles>" 177 277 3 4 5 3 
+"<baie>+<place>+<Place>+<Baie>+<capitale>+<ville>+<chemin>+<Chemin>+<Rue>+<rue>+<Allée>+<allée>+<Route>+<route>+<Impasse>+<impasse>+<Voie>+<voie>+<Avenue>+<avenue>" 565 48 1 10 
+"<vers>+<Vers>+<à>+<A>+<dans>+<d'>+<jusqu'à>+<Jusqu'à>+<en>+<En>+<jusqu'en>+<Jusqu'en>+<DET>" 566 353 2 9 10 
+"<N>+<WORD>" 617 670 1 8 
+"<E>/<ESN>" 686 221 7 12 14 11 15 16 18 19 
+"<NPropre>" 1134 250 2 13 11 
+"<N><<^[A-Z]>>" 908 143 1 13 
+"<<->><N><<^[A-Z]>>" 1171 163 2 13 21 
+"<CDIC>" 788 110 1 12 
+"<NPropre>" 1177 339 1 21 
+"<N><<^[A-Z]>>" 919 72 1 17 
+"<<->><Npropre>" 1173 57 2 17 21 
+"<ADV><<^[A-Z]>>" 877 197 1 13 
+"<FIRST><<^[A-Z]>>" 789 319 6 11 15 13 20 19 21 
+"<<->>" 836 405 1 19 
+"<E>/</ESN>" 1539 218 1 1 

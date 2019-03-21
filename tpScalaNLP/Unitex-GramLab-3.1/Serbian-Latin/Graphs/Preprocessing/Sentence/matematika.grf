@@ -1,0 +1,23 @@
+#Unigraph
+SIZE 952 1100
+FONT Times New Roman:  12
+OFONT Times New Roman:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 12632256
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+3
+"<E>" 88 172 1 2 
+"" 436 172 0 
+"karakter+element+skup+slovo+deo+podskup+promenljiva+vitamin" 208 172 1 1 

@@ -1,0 +1,29 @@
+------------------------------------------------------------------------
+r4246 | gupta | 2016-01-13 14:27:14 +0100 (Wed, 13 Jan 2016) | 1 line
+
+Rename the folder Cassys to CasSys
+------------------------------------------------------------------------
+r3343 | friburger | 2012-09-27 13:26:00 +0200 (Thu, 27 Sep 2012) | 1 line
+
+Added a share folder each Cassys language folder
+------------------------------------------------------------------------
+r3175 | paumier | 2012-07-24 12:53:08 +0200 (Tue, 24 Jul 2012) | 1 line
+
+Adding Gramlab's TEI graphs to every language directory
+------------------------------------------------------------------------
+r2455 | paumier | 2011-07-15 10:14:09 +0200 (Fri, 15 Jul 2011) | 1 line
+
+Updating Bokmal dictionaries
+------------------------------------------------------------------------
+r2183 | paumier | 2011-03-07 10:27:41 +0100 (Mon, 07 Mar 2011) | 1 line
+
+Renaming Norwegian directory to Norwegian (Bokmal)
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r276 | paumier | 2007-04-23 11:31:34 +0200 (Mon, 23 Apr 2007) | 1 line
+
+Adding Norwegian
+------------------------------------------------------------------------

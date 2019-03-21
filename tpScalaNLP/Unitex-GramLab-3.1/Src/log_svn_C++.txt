@@ -1,0 +1,514 @@
+------------------------------------------------------------------------
+r4310 | gupta | 2016-03-24 15:13:59 +0100 (Thu, 24 Mar 2016) | 1 line
+
+fix r4076: LETTER/LETTRE should not recognise a word.
+------------------------------------------------------------------------
+r4308 | paumier | 2016-03-17 16:04:45 +0100 (Thu, 17 Mar 2016) | 1 line
+
+Fixed patch to Sentence2Grf.cpp
+------------------------------------------------------------------------
+r4307 | martinec | 2016-03-16 19:41:49 +0100 (Wed, 16 Mar 2016) | 1 line
+
+rolled back to r4305
+------------------------------------------------------------------------
+r4306 | martinec | 2016-03-16 18:55:59 +0100 (Wed, 16 Mar 2016) | 1 line
+
+fix: patch submitted by Sebastien Paumier to deal with bad unescaped sequences on Seq2Grf
+------------------------------------------------------------------------
+r4304 | gupta | 2016-03-16 18:21:36 +0100 (Wed, 16 Mar 2016) | 1 line
+
+applying r4300
+------------------------------------------------------------------------
+r4302 | gvollant | 2016-03-13 23:38:45 +0100 (Sun, 13 Mar 2016) | 1 line
+
+remove fix from rev 4300 and 4301, revert exactly to rev 4299 before consensus found
+------------------------------------------------------------------------
+r4301 | gvollant | 2016-03-13 23:38:43 +0100 (Sun, 13 Mar 2016) | 1 line
+
+Fix bug in Cassys, enlarge classic static box size allocation in Grf2Fst2 for big box in graph when MAX_GRF2FST2_FACTOR is defined
+------------------------------------------------------------------------
+r4300 | gvollant | 2016-03-13 23:38:42 +0100 (Sun, 13 Mar 2016) | 1 line
+
+Fix bug in Cassys, dynamic box size allocation in Grf2Fst2 for big box in graph
+------------------------------------------------------------------------
+r4299 | martinea | 2016-03-13 21:32:38 +0100 (Sun, 13 Mar 2016) | 1 line
+
+LETTRE added
+------------------------------------------------------------------------
+r4296 | gvollant | 2016-03-12 17:59:14 +0100 (Sat, 12 Mar 2016) | 1 line
+
+fix comment in Makefile about Linux 64 bits library compilation
+------------------------------------------------------------------------
+r4294 | gvollant | 2016-03-12 15:52:52 +0100 (Sat, 12 Mar 2016) | 1 line
+
+add comment in Makefile about Linux 64 bits library compilation
+------------------------------------------------------------------------
+r4290 | gvollant | 2016-03-08 14:25:24 +0100 (Tue, 08 Mar 2016) | 1 line
+
+replace fatal_error by error in Cassys
+------------------------------------------------------------------------
+r4287 | gvollant | 2016-03-03 11:02:09 +0100 (Thu, 03 Mar 2016) | 1 line
+
+fix in read_text_file
+------------------------------------------------------------------------
+r4286 | gvollant | 2016-03-03 10:59:27 +0100 (Thu, 03 Mar 2016) | 1 line
+
+warning fix
+------------------------------------------------------------------------
+r4285 | gvollant | 2016-03-03 10:57:56 +0100 (Thu, 03 Mar 2016) | 1 line
+
+rewrite read_text_file using u_fget_unichars_raw like Tokenize
+------------------------------------------------------------------------
+r4284 | gvollant | 2016-03-03 10:53:40 +0100 (Thu, 03 Mar 2016) | 1 line
+
+rewrite read_text_file without exponential complexity
+------------------------------------------------------------------------
+r4283 | gvollant | 2016-03-03 10:52:36 +0100 (Thu, 03 Mar 2016) | 1 line
+
+fix another potential overflow in Denormalize
+------------------------------------------------------------------------
+r4282 | gvollant | 2016-03-02 17:52:24 +0100 (Wed, 02 Mar 2016) | 1 line
+
+Fix crash in denormalize when end of text accidentally reach (missing in prev correction)
+------------------------------------------------------------------------
+r4281 | gvollant | 2016-03-02 17:42:04 +0100 (Wed, 02 Mar 2016) | 1 line
+
+Fix crash in denormalize when end of text accidentally reach
+------------------------------------------------------------------------
+r4280 | gvollant | 2016-03-02 17:41:10 +0100 (Wed, 02 Mar 2016) | 1 line
+
+fix on BatchRunScript: display error instead crash when script filename is bad
+------------------------------------------------------------------------
+r4276 | gupta | 2016-02-23 16:14:41 +0100 (Tue, 23 Feb 2016) | 1 line
+
+fix r4080: LocateTfst supports new lexical masks: WORD, UPPER, LOWER, FIRST
+------------------------------------------------------------------------
+r4274 | martinec | 2016-02-18 18:51:46 +0100 (Thu, 18 Feb 2016) | 1 line
+
+minor refactor: typo correction
+------------------------------------------------------------------------
+r4273 | martinec | 2016-02-18 00:38:20 +0100 (Thu, 18 Feb 2016) | 1 line
+
+minor refactor: spell corrections
+------------------------------------------------------------------------
+r4271 | gvollant | 2016-02-11 10:36:27 +0100 (Thu, 11 Feb 2016) | 1 line
+
+First fix about memory error in cassys with generic graph
+------------------------------------------------------------------------
+r4270 | gupta | 2016-02-10 17:46:37 +0100 (Wed, 10 Feb 2016) | 3 lines
+
+Errors fixed:
+escape the token before putting it in generic graph
+parse a string in reverse
+------------------------------------------------------------------------
+r4268 | gvollant | 2016-02-09 21:15:08 +0100 (Tue, 09 Feb 2016) | 1 line
+
+cassys_tokenize_word_by_word uses dynamic text buffer when buffer overflow risk
+------------------------------------------------------------------------
+r4267 | gvollant | 2016-02-09 20:11:22 +0100 (Tue, 09 Feb 2016) | 1 line
+
+Fix Cassys buffer allocation sometime too small
+------------------------------------------------------------------------
+r4265 | gvollant | 2016-02-04 00:52:35 +0100 (Thu, 04 Feb 2016) | 1 line
+
+warning fixes
+------------------------------------------------------------------------
+r4264 | gvollant | 2016-02-04 00:52:18 +0100 (Thu, 04 Feb 2016) | 1 line
+
+fix compatibility problem when compiler define the DEBUG symbol
+------------------------------------------------------------------------
+r4263 | martinec | 2016-01-28 17:44:36 +0100 (Thu, 28 Jan 2016) | 1 line
+
+fix: avoid throwing an error for a non-strict DELAS line
+------------------------------------------------------------------------
+r4262 | martinec | 2016-01-21 17:20:39 +0100 (Thu, 21 Jan 2016) | 1 line
+
+testing release 3.1rc
+------------------------------------------------------------------------
+r4261 | martinec | 2016-01-21 16:49:26 +0100 (Thu, 21 Jan 2016) | 1 line
+
+testing release 3.1rc
+------------------------------------------------------------------------
+r4253 | martinec | 2016-01-14 19:07:05 +0100 (Thu, 14 Jan 2016) | 1 line
+
+fix bug when a graph dictionary produces an empty morpho.dic
+------------------------------------------------------------------------
+r4252 | martinec | 2016-01-13 20:13:03 +0100 (Wed, 13 Jan 2016) | 1 line
+
+enhance: version information is now centralized in Version.h
+------------------------------------------------------------------------
+r4251 | martinec | 2016-01-13 17:22:53 +0100 (Wed, 13 Jan 2016) | 1 line
+
+minor: update disclaimer
+------------------------------------------------------------------------
+r4239 | gvollant | 2016-01-02 10:19:22 +0100 (Sat, 02 Jan 2016) | 1 line
+
+like revision 1220 and 2059, 2691, 3390, 3539 and 3753, Updating copyright to 2016
+------------------------------------------------------------------------
+r4225 | martinec | 2015-12-08 14:18:38 +0100 (Tue, 08 Dec 2015) | 1 line
+
+minor enhance: add build information
+------------------------------------------------------------------------
+r4220 | martinec | 2015-12-07 17:34:55 +0100 (Mon, 07 Dec 2015) | 1 line
+
+minor refactor: update variable name
+------------------------------------------------------------------------
+r4219 | martinec | 2015-12-04 02:55:40 +0100 (Fri, 04 Dec 2015) | 1 line
+
+minor update: harmonize version variable names with build system
+------------------------------------------------------------------------
+r4215 | martinec | 2015-12-04 01:27:50 +0100 (Fri, 04 Dec 2015) | 1 line
+
+minor enhance: add version release definition
+------------------------------------------------------------------------
+r4212 | martinec | 2015-12-03 21:43:31 +0100 (Thu, 03 Dec 2015) | 1 line
+
+rename LICENSE.md to LICENSE
+------------------------------------------------------------------------
+r4200 | martinec | 2015-12-03 02:54:47 +0100 (Thu, 03 Dec 2015) | 1 line
+
+minor refactor: use only @ character to surround template variables
+------------------------------------------------------------------------
+r4193 | martinec | 2015-12-02 21:12:23 +0100 (Wed, 02 Dec 2015) | 1 line
+
+minor disclaimer refactor
+------------------------------------------------------------------------
+r4191 | martinec | 2015-11-30 19:24:31 +0100 (Mon, 30 Nov 2015) | 1 line
+
+add a templated-disclaimer about the Unitex/GramLab distribution
+------------------------------------------------------------------------
+r4190 | martinec | 2015-11-30 18:17:27 +0100 (Mon, 30 Nov 2015) | 1 line
+
+minor: update Unitex description
+------------------------------------------------------------------------
+r4188 | gupta | 2015-11-30 15:46:39 +0100 (Mon, 30 Nov 2015) | 1 line
+
+Generic graph bug fix: escape slash before calling grf2fst2
+------------------------------------------------------------------------
+r4187 | martinec | 2015-11-30 15:16:04 +0100 (Mon, 30 Nov 2015) | 12 lines
+
+update stdint from v0.1.14 to v0.1.15
+
+This version add the following next macros
+
+PRINTF_UINT8_DEC_WIDTH
+PRINTF_UINTMAX_DEC_WIDTH
+PRINTF_UINT64_DEC_WIDTH
+PRINTF_UINT32_DEC_WIDTH
+PRINTF_UINT16_DEC_WIDTH
+PRINTF_UINT8_DEC_WIDTH
+
+
+------------------------------------------------------------------------
+r4182 | martinec | 2015-11-27 17:29:28 +0100 (Fri, 27 Nov 2015) | 1 line
+
+enhance: add a main license for the Unitex core engine
+------------------------------------------------------------------------
+r4181 | martinec | 2015-11-27 17:29:18 +0100 (Fri, 27 Nov 2015) | 1 line
+
+add missing copyright notices
+------------------------------------------------------------------------
+r4179 | martinec | 2015-11-27 00:41:23 +0100 (Fri, 27 Nov 2015) | 1 line
+
+minor: harmonize variable names with build system
+------------------------------------------------------------------------
+r4169 | gvollant | 2015-11-24 09:09:42 +0100 (Tue, 24 Nov 2015) | 1 line
+
+UnPreprocess minor modification
+------------------------------------------------------------------------
+r4168 | martinec | 2015-11-23 19:12:44 +0100 (Mon, 23 Nov 2015) | 1 line
+
+minor: harmonize variable names with build system
+------------------------------------------------------------------------
+r4166 | gvollant | 2015-11-23 10:18:01 +0100 (Mon, 23 Nov 2015) | 1 line
+
+fix UnPreprocess overlap
+------------------------------------------------------------------------
+r4163 | gvollant | 2015-11-22 14:17:39 +0100 (Sun, 22 Nov 2015) | 1 line
+
+fix leak in UnPreprocess
+------------------------------------------------------------------------
+r4162 | paumier | 2015-11-22 07:29:27 +0100 (Sun, 22 Nov 2015) | 1 line
+
+In Fst2List: stopping when reaching the maximum number of lines specified by the user is not an error
+------------------------------------------------------------------------
+r4161 | gvollant | 2015-11-21 22:52:35 +0100 (Sat, 21 Nov 2015) | 1 line
+
+Introduce UnPreprocess
+------------------------------------------------------------------------
+r4160 | gvollant | 2015-11-21 20:44:21 +0100 (Sat, 21 Nov 2015) | 1 line
+
+unitex long name parameters are tolerant for mismatch - and _ (like char_by_char vs char-by-char, --only_verify_arguments vs --only-verify-arguments), because there was no coherency
+------------------------------------------------------------------------
+r4159 | gvollant | 2015-11-21 20:41:42 +0100 (Sat, 21 Nov 2015) | 2 lines
+
+fix bug in u_fget_unichars_raw which minor buffer size by 1 using UTF8.
+With this fix, the function has same hehavior in UTF16 and UTF8
+------------------------------------------------------------------------
+r4158 | gvollant | 2015-11-21 20:40:10 +0100 (Sat, 21 Nov 2015) | 1 line
+
+as discussed in developer mailing list, revert r4154 "Allow output for simple subgraphs."
+------------------------------------------------------------------------
+r4154 | gupta | 2015-11-19 14:37:44 +0100 (Thu, 19 Nov 2015) | 1 line
+
+Allow output for simple subgraphs.
+------------------------------------------------------------------------
+r4152 | gvollant | 2015-11-17 14:10:27 +0100 (Tue, 17 Nov 2015) | 1 line
+
+error in cassys_tokenize did not abort tokenize
+------------------------------------------------------------------------
+r4145 | martinec | 2015-11-09 20:01:42 +0100 (Mon, 09 Nov 2015) | 1 line
+
+add a header regrouping Unitex release information
+------------------------------------------------------------------------
+r4142 | gupta | 2015-11-05 16:11:27 +0100 (Thu, 05 Nov 2015) | 1 line
+
+generic graph bug fix 
+------------------------------------------------------------------------
+r4141 | gvollant | 2015-11-05 14:55:57 +0100 (Thu, 05 Nov 2015) | 1 line
+
+minor stack-size modification in UnitexTool
+------------------------------------------------------------------------
+r4140 | gvollant | 2015-11-05 14:51:33 +0100 (Thu, 05 Nov 2015) | 1 line
+
+change in Locate --le*_tolerant behavior
+------------------------------------------------------------------------
+r4139 | gvollant | 2015-11-05 10:52:02 +0100 (Thu, 05 Nov 2015) | 1 line
+
+Default value on somes Locate parameters (change really for stop token)
+------------------------------------------------------------------------
+r4138 | gvollant | 2015-11-05 10:51:22 +0100 (Thu, 05 Nov 2015) | 1 line
+
+prepare for default value on somes Locate parameters
+------------------------------------------------------------------------
+r4136 | gupta | 2015-11-04 15:54:38 +0100 (Wed, 04 Nov 2015) | 1 line
+
+start = pos2 for META_PRE and META_UPPER
+------------------------------------------------------------------------
+r4135 | gvollant | 2015-11-04 13:35:11 +0100 (Wed, 04 Nov 2015) | 1 line
+
+uses SemVer version info copyright info
+------------------------------------------------------------------------
+r4134 | gvollant | 2015-11-04 13:23:15 +0100 (Wed, 04 Nov 2015) | 1 line
+
+uses SemVer version info copyright info
+------------------------------------------------------------------------
+r4133 | gvollant | 2015-11-04 11:12:34 +0100 (Wed, 04 Nov 2015) | 1 line
+
+enhance VersionInfo - forgotten file in commit
+------------------------------------------------------------------------
+r4132 | gvollant | 2015-11-04 10:41:15 +0100 (Wed, 04 Nov 2015) | 1 line
+
+enhance VersionInfo
+------------------------------------------------------------------------
+r4131 | gvollant | 2015-11-04 10:19:37 +0100 (Wed, 04 Nov 2015) | 1 line
+
+enhance VersionInfo
+------------------------------------------------------------------------
+r4130 | gvollant | 2015-11-04 10:19:19 +0100 (Wed, 04 Nov 2015) | 1 line
+
+fix memory leak in cassys
+------------------------------------------------------------------------
+r4129 | martinec | 2015-11-03 15:06:11 +0100 (Tue, 03 Nov 2015) | 1 line
+
+minor: command line and comments refactor
+------------------------------------------------------------------------
+r4128 | gupta | 2015-11-03 11:09:37 +0100 (Tue, 03 Nov 2015) | 1 line
+
+Generic graph searchs current _snt folder for tok_by_alph.txt
+------------------------------------------------------------------------
+r4127 | martinec | 2015-11-02 18:34:57 +0100 (Mon, 02 Nov 2015) | 1 line
+
+minor fix: remove debugging code
+------------------------------------------------------------------------
+r4126 | martinec | 2015-11-02 18:07:01 +0100 (Mon, 02 Nov 2015) | 74 lines
+
+Fixed bugs:
+
+- Report wrong line error number when compressing multiple files
+- Report wrong count of entries when a file has comments
+- Avoid to compress more than once a file, i.e. Compress foo.dic foo.dic -o foo.bin
+- Avoid to compress empty dictionaries (without any entry)
+- Avoid to build a .inf file when a file doesn't exists
+- Under Linux forbid to open/compress directories
+- Prevent memory corruption when encounter an entry like 'foo,.bar\'
+
+Enhances:
+
+- Always report the line number when an error occurs
+- Report the number of files processed
+- Report the number of errors found (if any)
+- Report the number of entries processed (without comments or errors)
+
+Command line:
+
+- Command line usage rewritten using docopt format http://docopt.org/
+- New command line parameter --output_type=TYPE, type could be 'bin1' or 'bin2'
+- New command line parameter --version, to print the Compress version according
+  to the "Standards for Command Line Interfaces" https://goo.gl/7UgLC8
+- Exposing --input_encoding and --output_encoding parameters
+- Print a message informing the deprecation of --v1, --v2 and --bin2 in favor
+  of --output_type=bin1 and output_type=bin2. For this release, no warnings or
+  errors are printed about using deprecated options
+
+New functions:
+
+- build_tree_from_dictionary()
+  Builds a tree representation of a DELAF dictionary
+- build_tree_from_dictionary_list()
+  Builds a tree representation of a list of DELAF dictionaries
+- create_and_save_inf()
+  Creates an inflectional information file
+- minimize_and_save_tree_as_bin_classic()
+  Minimizes and save a classic DELAF dictionary into a file
+- minimize_and_save_tree_as_bin_two()
+  Minimizes and save a bin2 DELAF dictionary into a file
+
+Experimental features:
+
+- Include support to build DELAF dictionaries that includes other DELAF
+  files, i.e. a meta-dictionary.
+
+  N.dic
+  house,.N:s
+  church,.N+Conc:s
+  park,.N:s
+
+  A.dic
+  red,.A
+  blue,.A
+  white,.A
+
+  dela.dic
+  //! N.dic
+  //! A.dic
+
+  Here, dela.dic is a meta-dictionary that includes (//!) both N.dic and A.dic.
+  Relative paths are supported (//! foo/N.dic) as well as a mixed of entries,
+  comments and includes in the same file. Include recursions (e.g. A includes B,
+  B includes A; or A includes B, B includes C, C includes A) are detected and
+  avoided.
+
+Unfixed bugs:
+
+- Unitex doesn't support open files containing unicode characters in their
+  filename, i.e. Under Windows, Compress ?\232?\191?\144?\230?\176?\148.dic will not work. In the case
+  of POSIX systems fopen() accepts UTF8 filenames.
+
+
+
+------------------------------------------------------------------------
+r4125 | martinec | 2015-11-02 18:04:53 +0100 (Mon, 02 Nov 2015) | 1 line
+
+minor enhance: is_in_list() and equal() functions accept a custom comparator
+------------------------------------------------------------------------
+r4124 | martinec | 2015-11-02 15:16:29 +0100 (Mon, 02 Nov 2015) | 27 lines
+
+add UnitexFileType and portable filename handling and test functions
+
+This commit add a new type named UnitexFileType and the function
+get_file_type() to identify specific file types: abstract, regular,
+directory, etc. It includes also some new filename handling and test
+functions:
+
+- to_unix_path_separators()
+  Converts a filename according to the Unix path separator rules
+- to_windows_path_separators()
+  Converts a filename according to the Windows path separator rules
+- to_native_path_separators
+  Converts a filename according to the native system path separator rules
+- is_directory()
+  Checks if the givenilename corresponds to a directory
+- is_regular_file()
+  Checks if the given filename corresponds to a regular file
+- is_abstract_file()
+  Checks if the given filename corresponds to a Unitex abstract file
+- is_unknown_file()
+  Checks if the given filename corresponds to a unknown file type
+- get_real_path()
+  Derives from the pathname pointed to by filename, an absolute pathname
+- file_exists()
+  Checks whether a file or directory exists
+
+
+------------------------------------------------------------------------
+r4122 | martinec | 2015-11-02 13:05:02 +0100 (Mon, 02 Nov 2015) | 1 line
+
+add a canonical unitex version string
+------------------------------------------------------------------------
+r4121 | gvollant | 2015-11-01 17:03:52 +0100 (Sun, 01 Nov 2015) | 1 line
+
+add --stack-size=N as first possible option in UnitexTool
+------------------------------------------------------------------------
+r4120 | gvollant | 2015-11-01 16:01:27 +0100 (Sun, 01 Nov 2015) | 1 line
+
+fix in option stack-size
+------------------------------------------------------------------------
+r4119 | gvollant | 2015-11-01 13:09:08 +0100 (Sun, 01 Nov 2015) | 1 line
+
+add option stack-size in RunLog and BatchRunScript
+------------------------------------------------------------------------
+r4118 | gvollant | 2015-10-28 12:39:47 +0100 (Wed, 28 Oct 2015) | 1 line
+
+minor : suppress a warning with old GCC 3.4 and -pedantic
+------------------------------------------------------------------------
+r4117 | martinec | 2015-10-28 09:09:36 +0100 (Wed, 28 Oct 2015) | 1 line
+
+minor fix: avoid a memory leak when function fails
+------------------------------------------------------------------------
+r4116 | martinec | 2015-10-28 06:42:23 +0100 (Wed, 28 Oct 2015) | 1 line
+
+minor: prevent unused parameter compiler warning in non-Windows systems
+------------------------------------------------------------------------
+r4115 | martinec | 2015-10-28 05:43:03 +0100 (Wed, 28 Oct 2015) | 1 line
+
+minor: remove comma at end of enumerator list
+------------------------------------------------------------------------
+r4114 | martinec | 2015-10-27 20:13:51 +0100 (Tue, 27 Oct 2015) | 1 line
+
+minor fix: rename MAX_CLASS_NAME to MAX_DIC_CLASS_NAME to avoid clashing with windows.h macro
+------------------------------------------------------------------------
+r4113 | gvollant | 2015-10-27 09:13:03 +0100 (Tue, 27 Oct 2015) | 1 line
+
+Locate display stop token info as error (STDERR and not STDOUT), and give grammar name
+------------------------------------------------------------------------
+r4112 | martinec | 2015-10-25 18:16:53 +0100 (Sun, 25 Oct 2015) | 1 line
+
+minor update copyright year using update_copyright_year.sh
+------------------------------------------------------------------------
+r4110 | gvollant | 2015-10-22 22:31:25 +0200 (Thu, 22 Oct 2015) | 1 line
+
+fix potential warning
+------------------------------------------------------------------------
+r4109 | gvollant | 2015-10-22 14:14:36 +0200 (Thu, 22 Oct 2015) | 1 line
+
+minor warning fix
+------------------------------------------------------------------------
+r4107 | gvollant | 2015-10-19 17:38:22 +0200 (Mon, 19 Oct 2015) | 1 line
+
+minor error handling enhancemend in code from miniz/tinfl.c 
+------------------------------------------------------------------------
+r4106 | martinec | 2015-10-19 02:36:53 +0200 (Mon, 19 Oct 2015) | 1 line
+
+add support to use const char* values with ustring lists
+------------------------------------------------------------------------
+r4105 | martinec | 2015-10-19 02:34:01 +0200 (Mon, 19 Oct 2015) | 1 line
+
+minor: add missing cast
+------------------------------------------------------------------------
+r4104 | martinec | 2015-10-19 01:55:34 +0200 (Mon, 19 Oct 2015) | 1 line
+
+add a miscellaneous script to update copyright year
+------------------------------------------------------------------------
+r4103 | gvollant | 2015-10-19 00:13:10 +0200 (Mon, 19 Oct 2015) | 1 line
+
+add code from miniz/tinfl.c (very compact inflater) in FileUnpack to have a support of normal zip lingpackage
+------------------------------------------------------------------------
+r4102 | martinec | 2015-10-17 01:04:27 +0200 (Sat, 17 Oct 2015) | 1 line
+
+add a function to dumps the first n values of a given hash of strings
+------------------------------------------------------------------------
+r4094 | martinec | 2015-10-13 11:56:46 +0200 (Tue, 13 Oct 2015) | 1 line
+
+fix bug with output variables concatenation in morphological mode
+------------------------------------------------------------------------

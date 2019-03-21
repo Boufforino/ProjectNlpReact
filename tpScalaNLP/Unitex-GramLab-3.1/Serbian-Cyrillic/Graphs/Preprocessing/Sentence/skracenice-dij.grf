@@ -1,0 +1,27 @@
+#Unigraph
+SIZE 1188 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+7
+"<E>" 70 200 1 2 
+"" 448 200 0 
+"оп" 170 200 1 4 
+"skraćenice u dijagnozama" 81 84 0 
+"#\".\"+#\":\"" 230 200 1 6 
+"<MAJ>+<MIN>+<PRE>" 320 200 1 1 
+"<E>" 283 200 1 5 
